@@ -1,2 +1,5 @@
 FROM https://github.com/javanile/forkfile
+
 COPY .travis.yml
+
+MERGE Makefile
